@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Actividad_1.17_Tomás_Cabello</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<h1>Hoja de inscripción<br />
+en los ciclos formativos de grado superior</h1>
+
+<form action="">
+  <fieldset id="a">
+    <legend>Datos personales<a href="#L486"></a></legend>
+    <table border="0">
+      <tbody>
+        <tr>
+          <td>Apellidos:<br />
+            <input type="text" name="a01" size="40" /></td>
+          <td>Nombre:<br />
+            <input type="text" name="a02" size="20" />
+          </td>
+          <td>DNI:<br />
+            <input type="text" name="a03" maxlength="11" size="12" />
+          </td>
+        </tr>
+        <tr>
+          <td>Localidad de nacimiento<br/>
+            <input type="text" name="a04" size="30" />
+          </td>
+          <td>Provincia:<br />
+            <select name="a05">
+              <option value="Cordoba">Cordoba</option>
+              <option value="Granada">Granada</option>
+              <option value="Jaen">Jaen</option>
+              <option value="Malaga">Malaga</option>
+              <option value="Sevilla">Sevilla</option>
+              <option value="Huelva" selected="selected">Huelva</option>
+              <option value="Almeria">Almeria</option>
+            </select>
+          </td>
+          <td>Fecha nacimiento<br/>
+            <input type="text" name="a06" maxlength="10" size="12" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">Direccion<br />
+            <input type="text" name="a07" size="60" />
+          </td
+        <tr>
+          <td>Codigo Postal<br />
+            <input type="text" name="a11" maxlength="9" size="10" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+  <fieldset id="b">
+    <legend>Requisitos de acceso</legend>
+    <table>
+      <tbody>
+        <tr>
+          <td><input type="radio" name="radiob1" value="b01" id="req_dir"
+          /></td>
+          <td><label for="req_dir">Directo</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><label><input type="radio" name="radiob2" value="b01a" />
+            Bachillerato LOGSE.</label> Modalidad: <input type="text"
+            name="b01b" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><label><input type="radio" name="radiob2" value="b01c" />
+            Bachillerato experimental</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><label><input type="radio" name="radiob2" value="b02c" />
+            COU.</label> Opción: <input type="text" name="b02e" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><label><input type="radio" name="radiob2" value="b02f" />
+            FP2</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><label><input type="radio" name="radiob2" value="b02h" />
+            Otros</label> (especifique): <input type="text" name="b02h"
+          /></td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="radiob1" value="b01b" id="req_pru"
+          /></td>
+          <td><label for="req_pru">Mediante prueba</label></td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+  <fieldset id="d">
+    <legend>Documentación presentada</legend>
+    <table border="0">
+      <tbody>
+        <tr>
+          <td><label><input type="checkbox" name="d01" /> Fotocopia
+            DNI</label></td>
+          <td><label><input type="checkbox" name="d02" />Certificado
+            académcio</label></td>
+        </tr>
+        <tr>
+          <td colspan="2"><label><input type="checkbox" name="d03" /> Otros
+            documentos</label> (especifique):<input type="text" name="d04"
+            size="40" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+</form>
+        <p>
+        <input type="submit" value="Enviar Solicitud">
+        </p>
+</body>
+</html>
